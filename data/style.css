@@ -1,0 +1,134 @@
+.w-20 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 17.2%;
+  flex: 0 0 17.2%;
+  max-width: 17.2%;
+}
+
+@media (min-width: 576px) {
+  .w-sm-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 17.2%;
+    flex: 0 0 17.2%;
+    max-width: 17.2%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.co2Card{
+		margin:1% !important;
+	}
+	.tempCard{
+		margin:1% !important;
+	}
+  .w-md-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 17.2%;
+    flex: 0 0 17.2%;
+    max-width: 17.2%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 17.2%;
+    flex: 0 0 17.2%;
+    max-width: 17.2%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .w-xl-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 17.2%;
+    flex: 0 0 17.2%;
+    max-width: 17.2%;
+  }
+}
+
+body{
+	background: #136a8a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title{
+	margin-top:25px;
+	text-align:center;
+}
+
+.container-fluid{
+	margin-top:50px;
+}
+
+.title img{
+	vertical-align:middle;
+	border-radius: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title h1{
+	font-family:"Open Sans";
+	margin-left:25px;
+	vertical-align:middle;
+	display:inline;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 10px #000000;
+}
+
+.card h2 img{
+	float:left;
+	vertical-align:middle;
+}
+
+.card h2{
+	margin-top:25px;
+	margin-bottom:25px;
+	vertical-align:middle;
+	text-align:center;
+	color:#136a8a;
+}
+
+.card h1 {
+	vertical-align:middle;
+	text-align:center;
+	font-size:50px;
+	height:100%;
+	color:#136a8a;
+}
+
+.co2Card{
+	margin:1% 1% 1% 3%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:#ffffff;
+}
+
+.humidCard{
+	margin:1% 1% 1% 1%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:#ffffff;
+}
+
+.pressureCard{
+	margin:1% 1% 1% 1%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:#ffffff;
+}
+
+.TVOCCard{
+	margin:1% 1% 1% 1%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:#ffffff;
+}
+
+.tempCard{
+	margin:1% 3% 1% 1%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:#ffffff;
+}
